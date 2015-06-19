@@ -1,0 +1,11 @@
+{application, staticregexp,
+  [
+    {description, "Compile-time regexp compilation parse transform"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib
+    ]},
+    {env, []}
+  ]}.
